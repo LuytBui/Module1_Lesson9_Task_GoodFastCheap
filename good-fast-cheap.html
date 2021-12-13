@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h3>How do you want my products to be?</h3>
+<table>
+    <tr>
+        <td>
+            <label class="switch" >
+                <input type="checkbox" id="checkboxGood" onclick="toggleGood()">
+                <span class="slider round" ></span>
+            </label>
+        </td>
+        <td>
+            <p>Good</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="switch">
+                <input type="checkbox" id="checkboxFast" onclick="toggleFast()">
+                <span class="slider round"></span>
+            </label>
+        </td>
+        <td>
+            <p>Fast</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="switch">
+                <input type="checkbox" id="checkboxCheap" onclick="toggleCheap()">
+                <span class="slider round"></span>
+            </label>
+        </td>
+        <td>
+            <p>Cheap</p>
+        </td>
+    </tr>
+</table>
+<input type="button" value="Sumbit" onclick="submit()">
+<script src="script.js"></script>
+
+</body>
+</html>
